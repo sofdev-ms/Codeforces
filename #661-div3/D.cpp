@@ -47,9 +47,12 @@ int main()  {
     			}
     		}
     	}
+		vector < pair < int , int > > temp;
+		temp.push_back({ 0 , 1});
+		
     	cout << count << "\n";
-    	for(int i = 0; i < n; i++)	{
-    		cout << ans[i] << " ";
+    	for(auto x: ans)	{
+    		cout << x << " ";
     	}
     	cout << "\n";
     }
